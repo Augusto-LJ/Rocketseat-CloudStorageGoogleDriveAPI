@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CloudStorageGoogleDriveAPI.Application\CloudStorageGoogleDriveAPI.Application.csproj" />
+    <ProjectReference Include="..\CloudStorageGoogleDriveAPI.Infrastructure\CloudStorageGoogleDriveAPI.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

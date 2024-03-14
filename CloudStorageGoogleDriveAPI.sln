@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageGoogleDriveAPI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageGoogleDriveAPI.Application", "CloudStorageGoogleDriveAPI.Application\CloudStorageGoogleDriveAPI.Application.csproj", "{DDC3DFDE-6FA2-4C61-8BDD-AFAD861F26DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageGoogleDriveAPI.Infrastructure", "CloudStorageGoogleDriveAPI.Infrastructure\CloudStorageGoogleDriveAPI.Infrastructure.csproj", "{CD823B2B-A818-441F-8DFB-F7A7321C3CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageGoogleDriveAPI.Domain", "CloudStorageGoogleDriveAPI.Domain\CloudStorageGoogleDriveAPI.Domain.csproj", "{26DDD46A-3F65-49BE-AED1-3E5114F2DC27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{DDC3DFDE-6FA2-4C61-8BDD-AFAD861F26DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC3DFDE-6FA2-4C61-8BDD-AFAD861F26DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC3DFDE-6FA2-4C61-8BDD-AFAD861F26DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD823B2B-A818-441F-8DFB-F7A7321C3CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD823B2B-A818-441F-8DFB-F7A7321C3CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD823B2B-A818-441F-8DFB-F7A7321C3CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD823B2B-A818-441F-8DFB-F7A7321C3CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DDD46A-3F65-49BE-AED1-3E5114F2DC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DDD46A-3F65-49BE-AED1-3E5114F2DC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DDD46A-3F65-49BE-AED1-3E5114F2DC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DDD46A-3F65-49BE-AED1-3E5114F2DC27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
