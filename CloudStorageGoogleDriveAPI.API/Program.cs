@@ -16,8 +16,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IStorageService>(options =>
 {
-    var clientId = builder.Configuration.GetValue<string>("CloudStorage:ClientId");
-    var clientSecret = builder.Configuration.GetValue<string>("CloudStorage:ClientSecret");
+    //var clientId = builder.Configuration.GetValue<string>("CloudStorage:ClientId");
+    //var clientSecret = builder.Configuration.GetValue<string>("CloudStorage:ClientSecret");
 
     var apiCodeFlow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
     {
